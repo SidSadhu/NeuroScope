@@ -1,0 +1,30 @@
+# Git & CI
+.git
+.github
+.gitignore
+.pytest_cache
+.ruff_cache
+
+# Python artifacts
+__pycache__
+*.py[cod]
+*.egg-info
+.venv
+venv
+
+# Secrets & env — never bake into an image
+.streamlit/secrets.toml
+.env
+
+# Docs & dev files not needed at runtime
+docs
+tests
+*.md
+.streamlit/secrets.toml.example
+
+# Logs & local scratch
+*.log
+streamlit.log
+docker-compose.yml
+Dockerfile
+.dockerignore

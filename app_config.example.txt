@@ -1,0 +1,8 @@
+Optional Streamlit configuration can be placed in .streamlit/config.toml.
+
+Example:
+
+[theme]
+base = "light"
+primaryColor = "#2563eb"
+font = "sans serif"
